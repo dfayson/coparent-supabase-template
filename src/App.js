@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { supabase } from './supabaseClient';
-import { AuthProvider, useAuth } from './components/AuthProvider';
-import VisitForm from './components/VisitForm';
-import CalendarView from './components/CalendarView';
+import { AuthProvider, useAuth } from './AuthProvider';
+import VisitForm from './VisitForm';
+import CalendarView from './CalendarView';
 
 function AppInner() {
   const { user } = useAuth();
